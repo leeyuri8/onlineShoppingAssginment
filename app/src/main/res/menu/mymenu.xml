@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:title="arrange"
+    android:icon="@drawable/ic_baseline_arrow_drop_down_24"
+    app:showAsAction="ifRoom"
+    android:titleCondensed=""
+
+    />
+    <item android:title = "About"
+        android:id = "@+id/About"
+        />
+    <item android:title = "Settings"
+        android:id = "@+id/Settings"
+        />
+    <item android:title="Add Product"
+        android:visible="false"
+        android:id="@+id/addProduct"
+        android:actionLayout="@layout/activity_add_product"
+        />
+    <item android:title="Add Category"
+        android:visible="false"
+        android:id="@+id/addCategory"
+        android:actionLayout="@layout/activity_add_category"
+        />
+    <item android:title = "Logout"
+        android:id = "@+id/Contact"
+        />
+
+
+    <item android:id="@+id/search"
+        android:title="Product Search"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="always"
+        app:actionViewClass="androidx.appcompat.widget.SearchView"/>
+</menu>
+

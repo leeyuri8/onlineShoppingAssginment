@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">OnlineShoppingApp</string>
+    <string name="error_invalid_email">Invalid Email</string>
+    <string-array name="userType">
+        <item>admin</item>
+        <item>customer</item>
+    </string-array>
+    <string-array name="productOptions">
+        <item>Update</item>
+        <item>Delete</item>
+    </string-array>
+    <string-array name="categoryOptions">
+        <item>Update</item>
+        <item>Delete</item>
+    </string-array>
+    <string name="title_activity_user_map">Map</string>
+</resources>
